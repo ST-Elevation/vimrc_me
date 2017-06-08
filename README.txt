@@ -1,6 +1,6 @@
 Installation:
 
-    git clone https://github.com/ST-Elevation/vimrc_me.git
+    git clone https://github.com/ST-Elevation/vimrc_me.git ~/.vim
 
 Create symlinks:
 
