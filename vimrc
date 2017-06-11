@@ -1,10 +1,13 @@
 execute pathogen#infect() 
-syntax on
-let python_highlight_all=1
 
+" Basic syntax and utility
+syntax on
+set nu
+let python_highlight_all=1
+set clipboard=unnamed
 filetype plugin indent on
 
-" Mapping folding to ctrl
+" Mapping folding to ctrl+direction
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -34,3 +37,8 @@ set encoding=utf-8
 " Setting colorscheme
 set t_Co=256
 colors zenburn
+
+" ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+
