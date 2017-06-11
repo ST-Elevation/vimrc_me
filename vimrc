@@ -5,6 +5,9 @@ syntax on
 set nu
 let python_highlight_all=1
 set clipboard=unnamed
+set cursorline
+set showmatch
+
 filetype plugin indent on
 
 " Mapping folding to ctrl+direction
